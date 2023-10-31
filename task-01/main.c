@@ -6,7 +6,7 @@
 int main(void)
 {
     puts("This is Task-01");
-
+    printf("the board is");
     char line_buf[SHELL_DEFAULT_BUFSIZE];
     shell_run(NULL, line_buf, SHELL_DEFAULT_BUFSIZE);
 
